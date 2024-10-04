@@ -9,7 +9,7 @@ st.write("Dashboard ini memberikan wawasan mengenai data kualitas udara dari ber
 
 @st.cache_data
 def load_data():
-    data_path = 'PRSA_Data_20130301-20170228'
+    data_path = 'Dashboard/PRSA_Data_20130301-20170228'
     dataset_list = os.listdir(data_path)
     dataframes = []
     
